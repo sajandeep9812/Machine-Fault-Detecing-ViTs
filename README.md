@@ -1,4 +1,4 @@
-# 🤖 Machine Fault Detection using Vision Transformers (ViTs)
+#  Machine Fault Detection using Vision Transformers (ViTs)
 
 This repository contains a project on **machine fault detection** using **Vision Transformers (ViTs)**.  
 We compare ViTs with traditional CNNs using accelerometer and acoustic data converted into time–frequency images.
