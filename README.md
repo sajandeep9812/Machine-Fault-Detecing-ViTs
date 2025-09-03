@@ -37,3 +37,4 @@ We use the **UORED-VAFCLS** dataset, which provides accelerometer and acoustic r
 
 **Key Insight:** Vision Transformers significantly outperform CNNs in generalizing to unseen data, especially with accelerometer input achieving ~99.9% accuracy.
 
+<img width="1707" height="1101" alt="result" src="https://github.com/user-attachments/assets/994edc92-0417-4892-b223-6f49a1a58fe3" />
