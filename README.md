@@ -9,7 +9,7 @@ We compare ViTs with traditional CNNs using accelerometer and acoustic data conv
 
 We use the **UORED-VAFCLS** dataset, which provides accelerometer and acoustic recordings of rolling-element bearings under constant load and speed.  
 - Includes healthy and three fault conditions: inner race, outer race, ball, cage.  
-- Accessible here: [UORED Dataset (ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S2352340923004456)
+- Accessible here: [UORED Dataset (ScienceDirect)]([https://www.sciencedirect.com/science/article/pii/S2352340923004456](https://data.mendeley.com/datasets/y2px5tg92h/5))
 
 ---
 
