@@ -15,15 +15,15 @@ We use the **UORED-VAFCLS** dataset, which provides accelerometer and acoustic r
 
 ##  Project Overview
 
-| Notebook/File                                | Description |
-|----------------------------------------------|-------------|
-| `UORED_csv_to_image.ipynb`                    | Convert raw CSV signals into scalograms & spectrograms (224×224 RGB). |
-| `Accelerometer_ViTs.ipynb`                    | Train & evaluate Vision Transformer on accelerometer data. |
-| `acoustic_ViTs.ipynb`                         | Train & evaluate Vision Transformer on acoustic data. |
-| `CNN_machine_fault.ipynb`                     | Baseline CNN implementation for comparison. |
-| `Research Docs/`                              | Contains the final paper and documentation. |
-| `best_checkpoint/`                            | Saved model checkpoints (best-performing runs). |
-| `README.md`                                   | This file — project description and instructions. |
+| Notebook/File              | Description |
+|-----------------------------|-------------|
+| `UORED_csv_to_image.ipynb`  | Convert raw CSV signals into scalograms & spectrograms (224×224 RGB). |
+| `Accelerometer_ViTs.ipynb`  | Train & evaluate Vision Transformer on accelerometer data. |
+| `acoustic_ViTs.ipynb`       | Train & evaluate Vision Transformer on acoustic data. |
+| `CNN_machine_fault.ipynb`   | Baseline CNN implementation for comparison. |
+| `Research Docs/`            | Contains the final paper and documentation. |
+| `best_checkpoint/`          | Saved model checkpoints (best-performing runs). |
+| `README.md`                 | This file — project description and instructions. |
 
 ---
 
@@ -37,4 +37,24 @@ We use the **UORED-VAFCLS** dataset, which provides accelerometer and acoustic r
 
 **Key Insight:** Vision Transformers significantly outperform CNNs in generalizing to unseen data, especially with accelerometer input achieving ~99.9% accuracy.
 
-<img width="1707" height="1101" alt="result" src="https://github.com/user-attachments/assets/994edc92-0417-4892-b223-6f49a1a58fe3" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5fded6c7-a8fb-45a1-ac84-ba87463579df" alt="result" width="80%">
+</p>
+
+##  Visual Results
+
+###  Test Predictions (Scalograms - Accelerometer)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/00296e81-d565-4316-a7f0-bcb6bac13b14" alt="accelerometer_predictions" width="80%">
+</p>
+
+###  Test Predictions (Spectrograms - Acoustic)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/931bbad9-00bd-483e-abd4-00edb04cf02b" alt="acoustic_predictions" width="80%">
+</p>
+
+###  Attention Visualization (Acoustic)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4937d015-3985-4af4-a2fe-f8aee15942ab"  alt="attention_heads" width="80%">
+</p>
